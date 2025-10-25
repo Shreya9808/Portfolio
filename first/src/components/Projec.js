@@ -2,7 +2,7 @@ import React from "react";
 import '../styles/projects.css';
 
 
-const Projects = () => {
+const Projec = () => {
   const projectData = [
     {
       title: "Online Banking System",
@@ -49,4 +49,4 @@ const Projects = () => {
   );
 };
 
-export default Projects;
+export default Projec;
