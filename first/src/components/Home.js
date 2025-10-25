@@ -3,6 +3,7 @@ import image from '../assests/0.jpg'
 import About from './About';
 import Exp from './Exp';
 import Contact from './Contact';
+import Projects from './Projects';
 
 
 const Home = () => {
@@ -60,6 +61,12 @@ const Home = () => {
 <div className='row'>
   <div className='col'>
     <Exp />
+  </div>
+</div>
+
+<div className='row'>
+  <div className='col'>
+    <Projects />
   </div>
 </div>
 
