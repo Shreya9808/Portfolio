@@ -21,8 +21,8 @@ const Home = () => {
         </p>
         <button className='btn btn-custom'>
         <a 
-        href="/Shreya_Lakhera_Resume.pdf"  
-        download="Shreya_Lakhera_Resume.pdf" 
+        href="/shreyaresume@111.pdf"  
+        download="shreyaresume@111.pdf" 
         style={{ color: 'white', textDecoration: 'none' }}
        >
        Download Resume
