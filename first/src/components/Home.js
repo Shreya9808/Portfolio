@@ -1,5 +1,8 @@
 import React from 'react'
 import image from '../assests/0.jpg'
+import About from './About';
+import Exp from './Exp';
+import Contact from './Contact';
 
 
 const Home = () => {
@@ -42,22 +45,29 @@ const Home = () => {
       </div>
 
 
-
-
-
-
-
-
-
-
-
-
      </div>
 
 
 
 
 
+<div className='row'>
+  <div className='col'>
+    <About />
+  </div>
+</div>
+
+<div className='row'>
+  <div className='col'>
+    <Exp />
+  </div>
+</div>
+
+<div className='row'>
+  <div className='col'>
+    <Contact />
+  </div>
+</div>
 
 
 
