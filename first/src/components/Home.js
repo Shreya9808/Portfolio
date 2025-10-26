@@ -21,12 +21,13 @@ const Home = () => {
         <p>Motivated IT graduate with hands-on experience in React.js, JavaScript, HTML, and CSS, with knowledge of Python and Django. Reach out if you’re like to learn more.
         </p>
         <button className='btn btn-custom'>
-        <a 
-        href="/shreyaresume@111.pdf"  
-        download="shreyaresume@111.pdf" 
+           <a
+        href="/shreya-resume.pdf"      // <-- public folder se serve hota hai
+        download="shreya-resume.pdf"  // browser ko download prompt dega
+        className="btn btn-custom"
         style={{ color: 'white', textDecoration: 'none' }}
-       >
-       Download Resume
+      >
+        Download Resume
       </a>
       </button>
 
