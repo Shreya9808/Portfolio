@@ -1,6 +1,6 @@
 # My React Portfolio
 
-Welcome to my React portfolio website! You can check out the live project here: [View Live Portfolio](https://shreya9808.github.io/)
+Welcome to my React portfolio website! You can check out the live project here: [View Live Portfolio](https://shreya9808.github.io/Portfolio/)
 
 
 ## Available Scripts
