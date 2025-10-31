@@ -1,5 +1,6 @@
 import React from 'react'
 import image from '../assests/0.jpg'
+import resumePDF from '../assests/shreya-resume.pdf'
 import About from './About';
 import Exp from './Exp';
 import Contact from './Contact';
@@ -22,8 +23,8 @@ const Home = () => {
         </p>
         <button className='btn btn-custom'>
            <a
-        href="/shreya-resume.pdf"      // <-- public folder se serve hota hai
-        download="shreya-resume.pdf"  // browser ko download prompt dega
+        href={resumePDF}
+        download="shreya-resume.pdf"
         className="btn btn-custom"
         style={{ color: 'white', textDecoration: 'none' }}
       >
