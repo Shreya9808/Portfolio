@@ -1,5 +1,4 @@
 {
-<<<<<<< HEAD
   "name": "first",
   "version": "0.1.0",
   "private": true,
@@ -44,24 +43,4 @@
   "devDependencies": {
     "gh-pages": "^6.3.0"
   }
-=======
-  "name": "portfolio",
-  "version": "1.0.0",
-  "main": "index.js",
-  "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
-  },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/Shreya9808/Portfolio.git"
-  },
-  "keywords": [],
-  "author": "",
-  "license": "ISC",
-  "bugs": {
-    "url": "https://github.com/Shreya9808/Portfolio/issues"
-  },
-  "homepage": "https://github.com/Shreya9808/Portfolio#readme",
-  "description": ""
->>>>>>> f27d0a5066a59be782a6c35fff73fa10b36f0ff5
 }
