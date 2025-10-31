@@ -1,8 +1,9 @@
 {
   "files": {
     "main.css": "/Portfolio/static/css/main.cca01dd3.css",
-    "main.js": "/Portfolio/static/js/main.05afcf5a.js",
+    "main.js": "/Portfolio/static/js/main.d6cd575e.js",
     "static/js/453.7ca2a504.chunk.js": "/Portfolio/static/js/453.7ca2a504.chunk.js",
+    "static/media/shreya-resume.pdf": "/Portfolio/static/media/shreya-resume.032f363d60a11e834c1b.pdf",
     "static/media/0.jpg": "/Portfolio/static/media/0.8f5d289a71cea843d7a8.jpg",
     "static/media/python.png": "/Portfolio/static/media/python.1b9de615331ee4d8c795.png",
     "static/media/OIP.webp": "/Portfolio/static/media/OIP.46edeac563c76e126f93.webp",
@@ -11,11 +12,11 @@
     "static/media/dj.webp": "/Portfolio/static/media/dj.eb04d976a05449ef0d28.webp",
     "index.html": "/Portfolio/index.html",
     "main.cca01dd3.css.map": "/Portfolio/static/css/main.cca01dd3.css.map",
-    "main.05afcf5a.js.map": "/Portfolio/static/js/main.05afcf5a.js.map",
+    "main.d6cd575e.js.map": "/Portfolio/static/js/main.d6cd575e.js.map",
     "453.7ca2a504.chunk.js.map": "/Portfolio/static/js/453.7ca2a504.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.cca01dd3.css",
-    "static/js/main.05afcf5a.js"
+    "static/js/main.d6cd575e.js"
   ]
 }
