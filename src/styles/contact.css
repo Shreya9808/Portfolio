@@ -1,0 +1,128 @@
+/* Simple, reliable contact page styling (no external deps) */
+
+:root{
+  --bg: #f5f7fb;
+  --card: #ffffff;
+  --accent: #0b74ff;
+  --muted: #6b7280;
+  --radius: 14px;
+  --shadow: 0 10px 30px rgba(12,20,40,0.06);
+  --gap: 22px;
+  --max-width: 1100px;
+  --transition: 220ms ease;
+}
+
+* { box-sizing: border-box; }
+
+body, html, #root { height: 100%; }
+
+.contact-page {
+  background: var(--bg);
+  padding: 64px 20px;
+  display: flex;
+  justify-content: center;
+  font-family: system-ui, -apple-system, "Segoe UI", Roboto, "Helvetica Neue", Arial;
+  color: #0f1724;
+}
+
+.contact-card-wrapper {
+  width: 100%;
+  max-width: var(--max-width);
+  text-align: center;
+}
+
+.contact-title {
+  font-size: 2.4rem;
+  margin: 0;
+  font-weight: 700;
+  letter-spacing: -0.02em;
+  color: #0b1220;
+}
+
+.contact-sub {
+  margin-top: 10px;
+  color: var(--muted);
+  font-size: 1rem;
+  margin-bottom: 28px;
+}
+
+/* Grid of three cards */
+.contact-grid {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: var(--gap);
+  margin-top: 18px;
+}
+
+/* Card */
+.contact-card {
+  background: var(--card);
+  border-radius: var(--radius);
+  box-shadow: var(--shadow);
+  padding: 28px 20px;
+  transition: transform var(--transition), box-shadow var(--transition);
+  border: 1px solid rgba(15,23,36,0.04);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.contact-card:hover {
+  transform: translateY(-8px);
+  box-shadow: 0 20px 50px rgba(12,20,40,0.10);
+}
+
+.icon-wrap {
+  width: 64px;
+  height: 64px;
+  border-radius: 12px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: linear-gradient(180deg, rgba(11,116,255,0.06), rgba(11,116,255,0.02));
+  color: var(--accent);
+  margin-bottom: 12px;
+}
+
+.contact-card h3 {
+  margin: 6px 0;
+  font-size: 1.05rem;
+  color: #0b1220;
+}
+
+.contact-link {
+  color: var(--accent);
+  font-weight: 600;
+  text-decoration: none;
+  margin-top: 6px;
+  display: inline-block;
+  word-break: break-word;
+}
+
+.contact-link:hover,
+.contact-link:focus {
+  text-decoration: underline;
+}
+
+.contact-small {
+  margin-top: 12px;
+  color: var(--muted);
+  font-size: 0.9rem;
+}
+
+/* Responsive: stack on small screens */
+@media (max-width: 980px) {
+  .contact-grid {
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
+
+@media (max-width: 640px) {
+  .contact-grid {
+    grid-template-columns: 1fr;
+  }
+
+  .contact-title {
+    font-size: 1.9rem;
+  }
+}
